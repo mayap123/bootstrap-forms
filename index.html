@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <title>New York City Boroughs Quiz</title>
+</head>
+
+<body>
+
+<div class ="container">
+  <div class ="row">
+    <div class="col-md-6 offset-md-3">
+      <h1>New York City Boroughs Quiz</h1>
+      <p> New York City is divided into boroughs. Test your knowledge on them with the following quiz.</p>
+      <p><a href="https://en.wikipedia.org/wiki/Boroughs_of_New_York_City">Wikipedia: Boroughs of New York City</a></p>
+
+      <form>
+        <div class="form-group">
+        <label for="number" class="form-control-label">How many boroughs is NYC divided into? (Input a number)</label>
+        <input class="form-control" type="text" name="boroughnumber" id="number">
+        </div>
+
+        <div class="form-group">
+        <label for="Manhattan" class="form-control-label">Which borough is geographically smallest, most densely populated and known as the symbol of NYC?</label>
+        <input class="form-control" type="text" name="boroughanswer" id="Manhattan">
+        </div>
+
+        <div class="form-group">
+        <label for="definition" class="form-control-label">What is the definition of a borough?</label>
+        <textarea class="form-control" name="explainborough" id="definition" rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+        <label>In what year were the boroughs created?</label>
+
+        <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="year" value="1860">1860
+        </label>
+        </div>
+
+        <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="year" value="1790">1790
+        </label>
+        </div>
+
+        <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="year" value="1920">1920
+        </label>
+        </div>
+
+        <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="year" value="1898">1898
+        </label>
+        </div>
+
+        </div> <!-- form-group -->
+
+        <div class="form-group">
+        <label>Which is NYC’s most populous borough?</label>
+
+        <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="popular" value="Queens">Queens
+        </label>
+        </div>
+
+        <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="popular" value="The Bronx">The Bronx
+        </label>
+        </div>
+
+        <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="popular" value="Brooklyn">Brooklyn
+        </label>
+        </div>
+
+        <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="popular" value="Ellis Island">Ellis Island
+        </label>
+        </div>
+
+        </div> <!-- form-group -->
+
+        <div class="form-group">
+          <label>Which is an NYC borough? (Check all that apply)</label>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="correct" value="Harlem">Harlem
+            </label>
+          </div><!-- form-check -->
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="correct" value="Staten Island">Staten Island
+            </label>
+          </div><!-- form-check -->
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="correct" value="Queens">Queens
+            </label>
+          </div><!-- form-check -->
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="correct" value="Times Square">Times Square
+            </label>
+          </div><!-- form-check -->
+        </div><!-- form-group -->
+
+        <div class="form-group">
+          <label for="Bronx">Which one of the following is located in The Bronx? (Select one)</label>
+          <select class="form-control" name="trueBronx" id="Bronx">
+            <option value="coney">Coney Island</option>
+            <option value="centralPark">Central Park</option>
+            <option value="lga">LaGuardia Airport</option>
+            <option value="yankees">Yankees Stadium</option>
+            <option value="chinatown">Chinatown</option>
+            <option value="un">United Nations Headquarters</option>
+          </select>
+          </div>
+
+          <div class="form-group">
+<input class= "btn btn-primary" type="submit" value="Submit">
+<input class= "btn btn-secondary" type="reset" value="Reset">
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
